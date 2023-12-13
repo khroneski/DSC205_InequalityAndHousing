@@ -41,7 +41,7 @@ st.markdown('---')
 st.sidebar.header("Visualizations and Filters")
 
 # Radio Button for score type
-score_of_int = st.sidebar.radio('Data of Interest', ('Affordable Housing Score Map', 'Income Inequality Score Map', 'Affordable Housing v. Income Inequality'))
+score_of_int = st.sidebar.radio('Data of Interest', ('Affordable Housing Score Map', 'Income Inequality Score Map', 'Affordable Housing vs Income Inequality'))
 
 # Slider for Year of interest
 yr_of_interest = st.sidebar.slider("Year of Interest (2011 to 2020)", min_value = 2011, max_value = 2020)
