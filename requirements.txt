@@ -1,0 +1,11 @@
+# requirements.txt file to install app dependencies
+pandas==1.5.3
+numpy==1.23.5
+folium==0.14.0
+seaborn==0.12.2
+matplotlib==3.7.1
+scikit-learn==1.2.2
+geopandas==0.13.2
+streamlit==1.21.0
+plotly==5.15.0
+streamlit-folium==0.17.4
