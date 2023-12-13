@@ -118,7 +118,7 @@ elif score_of_int == 'Income Inequality Score Map':
     st_folium(ct_iie_map, width = 800)
 
 # Affordable Housing vs. Income Bubble Chart
-elif score_of_int == 'Affordable Housing v. Income Inequality':
+elif score_of_int == 'Affordable Housing vs Income Inequality':
     st.subheader('Affordable Housing vs Income Inequality')
     st.markdown('---')
 
